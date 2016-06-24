@@ -173,10 +173,23 @@ var snake = Object.create(animal);
 console.log(snake.eyes);
 snake.legs = 0;
 console.log(snake.legs);
+snake.breath = function(){
+	console.log("Hissssssssssssssssssssss");
+}
+snake.breath();
 
 var rabbit = Object.create(animal);
 
 rabbit.ears = "Huge";
 console.log(rabbit.ears);
+
+//Create a cow object with two new properties and a new function
+
+var cow = Object.create(animal);
+cow.wings = mini
+cow.tail = spiky
+cow.sound = function(){
+	console.log("Mooooooooo!"); 
+}
 
 
